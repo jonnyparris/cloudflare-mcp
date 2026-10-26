@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "MCP server for the entire Cloudflare API using codemode",
   "type": "module",
+  "packageManager": "npm@11.12.1",
   "scripts": {
     "dev": "cf dev",
     "deploy": "npm run build:spec && cf deploy",
